@@ -32,6 +32,7 @@ const PageStart = () => {
     queryFn: async() => await getallPromotion(obj),
     keepPreviousData: true
   })
+  console.log('🚀 ~ PageStart ~ promotion:', promotion);
 
   return (
     <div>

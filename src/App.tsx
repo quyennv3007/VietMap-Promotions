@@ -1,10 +1,6 @@
 import './App.css'
 import { routes } from '~/routes'
 
-
-function App() {
-
-  return <>{routes}</>
-}
+const App = () => routes
 
 export default App

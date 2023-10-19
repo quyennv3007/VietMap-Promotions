@@ -1,7 +1,7 @@
-export type Promotion={
-  maxResultCount: Number,
-  skipCount: Number,
-  keyword: String
+export type Promotion = {
+  maxResultCount: number | null;
+  skipCount: number | null;
+  keyword: string;
 };
 
 export type InstanceResponse<T = any> = Promise<T | undefined>;
